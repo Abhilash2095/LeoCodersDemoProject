@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+      
+      <domain includeSubdomains="true">oureacloud.com</domain>
+      <domain includeSubdomains="true">localhost</domain>
+      <!-- <domain includeSubdomains="true">44.205.68.14</domain> -->
+    </domain-config>
+</network-security-config>
